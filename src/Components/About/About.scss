@@ -1,0 +1,27 @@
+.about {
+    margin-top: -5em;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    .text{
+        margin-top: 15%;
+        height: 40vh;
+        width: 70vw;
+        background-color: rgba(118, 127, 134, .7);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            color: #464646;
+        }
+        h5 {
+            font-size: 1.5em;
+            margin: 12px;
+            color: aliceblue;
+        }
+    }
+}

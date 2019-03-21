@@ -1,0 +1,37 @@
+.nav{
+    position: relative;
+    top: 3em;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(118, 127, 134, .7);
+    padding: 10px;
+    color: aliceblue;
+    .bs {
+        h3 {
+            border-radius: 50%;
+            border: 2px solid aliceblue;
+            padding: 10px;
+            font-size: 1.75em;
+            letter-spacing: 0px;
+        }
+    }
+    .routes {
+        width: 35vw;
+        display: flex;
+        justify-content: space-between;
+        margin-top: .75em;
+        margin-right: -10em;
+        a {
+            height: 3px;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        p {
+            font-size: 2em;
+        }
+        h3 {
+            position: relative;
+            top: 5px;
+        }
+    }
+}

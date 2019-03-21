@@ -1,0 +1,26 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: rgba(118, 127, 134, .7);
+        width: 70vw;
+        margin-top: 15%;
+        a {
+            text-decoration: none;
+        }
+        h2 {
+            font-size: 3.5em;
+            color: #464646;
+            margin-bottom: 30px;
+        }
+        h4 {
+            font-size: 1.5em;
+            color: aliceblue;
+            margin: 1em;
+        }
+    }
+}
