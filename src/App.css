@@ -2,6 +2,7 @@
   text-align: center;
   background-image: url('https://storage.needpix.com/rsynced_images/gray-clouds-718177_1280.jpg');
   background-size: cover;
+  background-attachment: fixed; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
