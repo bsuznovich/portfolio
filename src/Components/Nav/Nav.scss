@@ -25,6 +25,9 @@
             height: 3px;
             text-decoration: none;
             color: aliceblue;
+            &:hover {
+                color: #EEDD8D;
+            }
         }
         p {
             font-size: 2em;
