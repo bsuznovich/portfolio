@@ -38,3 +38,138 @@
         }
     }
 }
+
+@media(max-width: 1024px) {
+    .nav {
+        .bs {
+            margin-left: -8em;
+        }
+        p {
+            margin-top: -.15em;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .nav {
+        .bs {
+            margin-left: -6em;
+        }
+        .routes {
+            margin-right: 0em;
+            p{
+                margin-top: -.15em;
+            }
+            h3 {
+                margin-right: .7em;
+                margin-left: .7em;
+            }
+        }
+    }
+}
+
+@media(max-width: 715px) {
+    .nav {
+        .bs {
+            font-size: .8em;
+        }
+        .routes {
+            margin-right: 2em;
+            p {
+                font-size: 1.5em;
+                margin-top: -2px;
+            }
+            h3 {
+                font-size: .9em;
+            }
+        }
+    }
+}
+
+@media(max-width: 588px) {
+    .nav {
+        .bs {
+            font-size: .6em;
+            border: 1px;
+        }
+        .routes {
+            margin-right: 4em;
+            p {
+                font-size: 1.25em;
+            }
+            h3 {
+                font-size: .78em;
+            }
+        }
+    }
+}
+
+@media(max-width: 460px) {
+    .nav {
+        .routes {
+            margin-right: 5.5em;
+        }
+    }
+}
+
+@media(max-width: 414px) {
+    .nav {
+        .bs {
+            font-size: .78em;
+            border: 1px;
+            margin-left: -3em;
+        }
+        .routes {
+            margin-right: 4.5em;
+            margin-left: -2em;
+            h3 {
+                font-size: .78em;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            p {
+                font-size: 1.28em;
+                margin-top: 0em;
+            }
+        }
+    }
+}
+
+@media(max-width: 375px) {
+    .nav {
+        .bs {
+            font-size: .75em;
+            border: 1px;
+            margin-left: -3em;
+        }
+        .routes {
+            margin-right: 5em;
+            margin-left: -3em;
+            h3 {
+                font-size: .75em;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            p {
+                font-size: 1.25em;
+                margin-top: .0em;
+            }
+        }
+    }
+}
+
+@media(max-width: 320px) {
+    .nav {
+        .bs {
+            font-size: .6em;
+        }
+        .routes {
+            h3{
+                font-size: .6em;
+            }
+            p {
+                font-size: 1.1em;
+            }
+        }
+    }
+}
