@@ -7,6 +7,7 @@
     padding: 10px;
     color: aliceblue;
     .bs {
+        margin-left: -6em;
         h3 {
             border-radius: 50%;
             border: 2px solid aliceblue;
@@ -43,11 +44,21 @@
     .nav {
         .bs {
             margin-left: -8em;
+            h3 {
+                // font-size: 2em;
+            }
         }
-        p {
-            margin-top: -.15em;
+        .routes {
+            p {
+                margin-top: -.15em;
+                // font-size: 2em;
+            }
+            h3 {
+                // font-size: 1.2em;
+            }
         }
     }
+
 }
 
 @media(max-width: 768px) {
@@ -56,7 +67,7 @@
             margin-left: -6em;
         }
         .routes {
-            margin-right: 0em;
+            margin-right: 5em;
             p{
                 margin-top: -.15em;
             }
@@ -115,13 +126,18 @@
 @media(max-width: 414px) {
     .nav {
         .bs {
-            font-size: .78em;
+            font-size: .5em;
             border: 1px;
             margin-left: -3em;
+            h3 {
+                font-size: 2em;
+                padding: 5px;
+            }
         }
         .routes {
             margin-right: 4.5em;
             margin-left: -2em;
+            margin-top: 3px;
             h3 {
                 font-size: .78em;
                 margin-left: 5px;
@@ -137,11 +153,6 @@
 
 @media(max-width: 375px) {
     .nav {
-        .bs {
-            font-size: .75em;
-            border: 1px;
-            margin-left: -3em;
-        }
         .routes {
             margin-right: 5em;
             margin-left: -3em;
@@ -161,9 +172,15 @@
 @media(max-width: 320px) {
     .nav {
         .bs {
-            font-size: .6em;
+            margin-left: -50px; 
+            font-size: .4em;
+            h3 {
+                font-size: 2em;
+                margin: 0px;
+            }
         }
         .routes {
+            margin-right: 50px;
             h3{
                 font-size: .6em;
             }

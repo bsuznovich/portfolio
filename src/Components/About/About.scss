@@ -25,3 +25,141 @@
         }
     }
 }
+
+
+@media(max-width: 1500px) {
+    .about {
+        .text {
+            height: 55vh;
+            margin-top: 23%;
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+    .about {
+        .text {
+            margin-top: 23%;
+        }
+    }
+    @media(min-height: 1366px) {
+        .about {
+            .text {
+                margin-top: 30%;
+                height: 30vh;
+            }
+        }
+    }  
+}
+
+@media(max-width: 894px) {
+    .about {
+        .text {
+            height: 60vh;
+            margin-top: 23%;
+            h2 {
+                font-size: 2.8em;
+            }
+            h5 {
+                font-size: 1.3em;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .about {
+        .text {
+            margin-top: 35%;
+            height: 50vh;
+        }
+    }
+}
+
+@media(max-width: 414px) {
+    .about {
+        .text {
+            margin-top: 45%;
+            height: 60vh;
+            width: 85%;
+            h2 {
+                font-size: 2.3em;
+            }
+            h5 {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+@media(max-width: 375px) {
+    .about {
+        .text {
+            margin-top: 50%;
+        }
+    }
+    @media(max-height: 812px) {
+        .about {
+            .text {
+                height: 57vh;
+            }
+        }
+    }
+    @media(max-height: 667px) {
+        .about {
+            .text {
+                height: 45vh;
+                h2 {
+                    font-size: 2em;
+                }
+                h5 {
+                    font-size: .9em;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 411px) {
+    @media(max-height: 823px) {
+        .about {
+            .text {
+                height: 55vh;
+                margin-top: 50%; 
+            }
+        }
+    }
+    @media(max-height: 731px) {
+        .about {
+            .text{
+                height: 60vh;
+                margin-top: 50%;
+            }
+        }
+    }
+}
+
+@media(max-width: 360px){
+    .about {
+        .text{
+            height: 50vh;
+        }
+    }
+}
+
+@media(max-width: 320px) {
+    .about {
+        .text {
+            height: 50vh;
+            margin-top: 60%;
+            h2 {
+                font-size: 1.7em;
+            }
+            h5 {
+                font-size: .8em;
+                margin-top: 0px;
+            }
+        }
+    }
+}
