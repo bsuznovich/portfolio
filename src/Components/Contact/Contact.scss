@@ -25,3 +25,38 @@
         }
     }
 }
+
+@media(max-width: 1024px) {
+    .contact {
+        .contactInfo {
+            margin-top: 23%;
+        }
+    }
+}
+
+@media(max-width: 414px) {
+    .contact {
+        .contactInfo {
+             h2 {
+                 font-size: 2.5em;
+             }
+             h4 {
+                 font-size: 1.3em;
+             }
+        }
+    }
+}
+
+@media(max-width: 360px) {
+    .contact {
+        .contactInfo {
+            h2 {
+                font-size: 1.8em;
+                margin-bottom: 10px;
+            }
+            h4 {
+                font-size: 1em;
+            }
+        }
+    }
+}

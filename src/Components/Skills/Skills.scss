@@ -55,6 +55,14 @@
     }
 }
 
+@media(max-width: 1024px) {
+    .skills{
+        .container {
+            margin-top: 23%;
+        }
+    }
+}
+
 @media(max-width: 768px) {
     .skills {
         .container {
