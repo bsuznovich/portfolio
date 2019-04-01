@@ -54,3 +54,99 @@
         }
     }
 }
+
+@media(max-width: 768px) {
+    .skills {
+        .container {
+            .skillsHolder {
+                width: 75%;
+                h5 {
+                    font-size: 2em;
+                }
+                img {
+                    height: 70px;
+                    width: 70px;
+                }
+                .html {
+                    img {
+                        width: 80px;
+                    }
+                }
+                .css {
+                    img {
+                        width: 60px;
+                    }
+                }
+                .node {
+                    img {
+                        width: 90px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 414px) {
+    .skills {
+        .container {
+            margin-top: 35%;
+            h2 {
+                font-size: 2.5em;
+            }
+            .skillsHolder {
+                width: 92%;
+                h5 {
+                    font-size: 1.3em;
+                }
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+                .html {
+                    img {
+                        width: 60px;
+                    }
+                }
+                .css {
+                    img {
+                        width: 40px;
+                    }
+                }
+                .node {
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 320px) {
+    .skills {
+        .container {
+            .skillsHolder {
+                img {
+                    height: 40px;
+                    width: 40px;
+                }
+                .html {
+                    img {
+                        width: 50px;
+                    }
+                }
+                .css {
+                    img {
+                        width: 30px;
+                    }
+                }
+                .node {
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
