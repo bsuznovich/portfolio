@@ -39,8 +39,12 @@ export default class Projects extends Component{
                         <p>Sorting Place</p>
                     </a>
                     <div className='slider'>
-                        <SimpleImageSlider className='slider' width={650} height={400} images={sortingPlaceImages}/>
+                        <SimpleImageSlider className='slider-img' width={650} height={400} images={sortingPlaceImages}/>
                     </div>
+                    <div className='slider1'>
+                        <SimpleImageSlider className='slider-img' width={480} height={300} images={sortingPlaceImages}/>
+                    </div>
+                    
                 </div>
 
                 <div className='cramify'>
@@ -55,6 +59,9 @@ export default class Projects extends Component{
                     </a>
                     <div className='slider'>
                         <SimpleImageSlider width={650} height={375} images={cramifyImages}/>
+                    </div>
+                    <div className='slider1'>
+                        <SimpleImageSlider width={480} height={300} images={cramifyImages}/>
                     </div>
                 </div>
             </div>

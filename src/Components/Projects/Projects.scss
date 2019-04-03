@@ -49,3 +49,73 @@
     justify-content: center;
     margin-bottom: 20px;
 }
+.slider1 {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    height: 1px;
+}
+
+@media(max-width: 768px) {
+    .projects {
+        .slider {
+            visibility: hidden;
+            height: 1px;
+            margin-bottom: 0px;
+        }
+        .slider1 {
+            visibility: visible;
+            margin-bottom: 18em;
+        }
+        .projectHolder {
+            margin-top: 10vh;
+            h2 {
+                font-size: 3em;
+            }
+            .sortingPlace {
+                h3 {
+                    font-size: 2em;
+                }
+                p {
+                    font-size: 1em;
+                    margin-left: 5em;
+                    margin-right: 5em;
+                    margin-top: 2em;
+                }
+            }
+            .cramify {
+                margin-bottom: 4em;
+                h3 {
+                    font-size: 2em;
+                }
+                p {
+                    font-size: 1em;
+                    margin-left: 5em;
+                    margin-right: 5em;
+                    margin-top: 2em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 414px) {
+    .projects {
+        .projectHolder {
+            margin-top: 15vh;
+            h2 {
+                font-size: 2.5em;
+            }
+            .sortingPlace {
+                h3 {
+                    font-size: 1.5em;
+                }
+                p {
+                    font-size: .75em;
+                    margin-left: 16em;
+                    margin-right: 16em;
+                }
+            }
+        }
+    }
+}
