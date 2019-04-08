@@ -1,6 +1,8 @@
 .projects {
     display: flex;
     justify-content: center;
+    // height: auto;
+    width: 100vw;
     .projectHolder {
        display: flex;
        flex-direction: column;
@@ -48,24 +50,35 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    height: 375px;
 }
 .slider1 {
     display: flex;
     justify-content: center;
     visibility: hidden;
-    height: 1px;
+    margin-top: -16em;
+}
+.slider2 {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    margin-top: -8em;
+}
+.slider3 {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    margin-top: -5em;
 }
 
 @media(max-width: 768px) {
     .projects {
         .slider {
             visibility: hidden;
-            height: 1px;
-            margin-bottom: 0px;
+            margin-bottom: -22em;
         }
         .slider1 {
             visibility: visible;
-            margin-bottom: 18em;
         }
         .projectHolder {
             margin-top: 10vh;
@@ -101,8 +114,19 @@
 
 @media(max-width: 414px) {
     .projects {
+        height: 1300px;
+        .slider1 {
+            visibility: hidden;
+            margin-top: -34em;
+        }
+        .slider2 {
+            visibility: visible;
+            height: 375px;
+            margin-bottom: -32em;
+        }
         .projectHolder {
             margin-top: 15vh;
+            margin-bottom: 10em;
             h2 {
                 font-size: 2.5em;
             }
@@ -114,6 +138,67 @@
                     font-size: .75em;
                     margin-left: 16em;
                     margin-right: 16em;
+                }
+            }
+            .cramify {
+                margin-top: 10em;
+                h3 {
+                    font-size: 1.5em;
+                }
+                p {
+                    font-size: .75em;
+                    margin-left: 16em;
+                    margin-right: 16em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 375px) {
+    .projects {
+        height: 1350px;
+        .projectHolder {
+            .sortingPlace {
+                p {
+                    margin-left: 17em;
+                    margin-right: 17em;
+                }
+            }
+            .cramify {
+                p {
+                    margin-left: 17em;
+                    margin-right: 17em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 320px) {
+    .projects {
+        height: 1450px;
+        .slider2 {
+            visibility: hidden;
+            margin-top: .5em;
+        }
+        .slider3 {
+            visibility: visible;
+            margin-bottom: -8.5em;
+        }
+        .projectHolder {
+            height: 70%;
+            .sortingPlace {
+                p {
+                    margin-left: 19em;
+                    margin-right: 19em;
+                }
+            }
+            .cramify {
+                margin-top: 8em;
+                p {
+                    margin-left: 19em;
+                    margin-right: 19em;
                 }
             }
         }
